@@ -27,3 +27,8 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+*.json
+*.env
+
+export GOOGLE_APPLICATION_CREDENTIALS=/home/erick/Endava/DevOps/Repositories/gke_hardening/key.json
